@@ -1,0 +1,86 @@
+{
+    "adminLogin": {
+        "heading": "Log in to Create Events",
+        "logInAndGiveDeveloper": "Log in and give the developer your principal ID to make you an admin. If you are already assigned as an admin, just log in to continue.",
+        "adminRedirecting": "Welcome Admin, Redirecting to Dashboard...",
+        "copyAndGiveDeveloper": "Copy and give the developer your principal ID to make you an admin. Please reload if you get Anonymous Principal: {{principalId}}",
+        "internetIdentity": "Internet Identity",
+        "loading": "Loading...",
+        "continueAsAttendee": "Continue as attendee"
+    },
+    "login": {
+        "heading": "Log in to Claim Rewards",
+        "helpText": "You are just one step away from claiming your rewards. Please log in now to claim your rewards. Remember, you can only claim your rewards once.",
+        "internetIdentity": "Internet Identity",
+        "loading": "Loading..."
+    },
+    "claimSeat": {
+        "sometingWentWrong": "'Something went wrong.",
+        "noCreds": "You do not have access to enter this event because your event ID and hex code are missing. Please rescan the QR code for the ICP event. If the issue persists, contact our support team for assistance.'",
+        "noEvent": "No Name",
+        "noSeat": "No Seat",
+        "helpText": "Great to see you've logged in! You're now ready to claim your seat number for the ICP Event. Simply click the 'Claim Seat' button to get started. This number is key to accessing event materials and participating fully. If you run into any issues or have questions, our support team is here to assist you. Enjoy the event!",
+        "welcomeText": "Welcome to {{eventName}}! Your login via ICP has been successful, and you've claimed your seat with Number: {{seatNo}}. This number is key to your engagement and experiences throughout the event. Should you have any questions or require assistance at any point, our support team is here to help. Enjoy your time at the event!",
+        "claimSeat": "Claim Seat",
+        "alreadyClaimed": "Already Claimed"
+    },
+    "qrCodeComponent": {
+        "heading": "Event QR Generation",
+        "helpText": "Welcome, Presenter! Here are the dynamically generated QR codes for your events. These QR codes serve as a convenient way for attendees to claim their seats. By scanning these codes, attendees can secure their spots and gain access to event materials and experiences. Encourage your attendees to have their smartphones ready and guide them to scan the QR codes using a QR code scanner app. Once scanned, attendees will be able to claim their seats and fully participate in the event. Should you need any assistance or have any questions, our support team is here to help. Enjoy a seamless and engaging event experience with the power of QR codes!",
+        "qrGenerated": "QR Generated",
+        "hideQr": "Hide QR"
+    },
+    "eventCard": {
+        "upcoming": "Upcoming",
+        "past": "Past",
+        "ongoing": "Ongoing",
+        "noStatus": "No Status",
+        "viewEvent": "View Event",
+        "showQr": "Show QR"
+    },
+    "events": {
+        "totalEvents": "Total Events: ",
+        "createNewEvent": "Create New Event",
+        "noEvents": "No Events Found"
+    },
+    "singleEvent": {
+        "noEvent": "No Event Found",
+        "altCreateEvent": "Create Event"
+    },
+    "singleEventCard":{
+        "startTimeTitle": "Start Time: ",
+        "endTimeTitle": "End Time: ",
+        "noTime": "No Time",
+        "totalSeatsTitle": "Total Seats: ",
+        "claimedSeatsTitle": "Claimed Seats: "
+    },
+    "addEventModal": {
+        "required": "Required",
+        "mustBeFuture": "Date must be in the future",
+        "greaterThanStart": "End date must be greater than start date",
+        "createEvent": "Create Event",
+        "eventName": "Event Name",
+        "enterEventName": "Enter Event Name",
+        "startDateTime": "Start Date & Time",
+        "endDateTime": "End Date & Time",
+        "eventDescription": "Event Description",
+        "enterEventDescription": "Enter Event Description",
+        "submitting": "Submitting...",
+        "submit": "Submit",
+        "cancel": "Cancel"
+    },
+    "deleteEventModal": {
+        "heading": "Delete Event",
+        "approvalText": "Are you sure you want to delete this event ? All event data will be permanently removed. This action cannot be undone.",
+        "delete": "Delete"
+    },
+    "editEventModal": {
+        "editEvent": "Edit Event",
+        "update": "Update"
+    },
+    "error404": {
+        "heading": "404",
+        "lostMessage": "Oops! Looks like you're lost.",
+        "goBack": "Let's get you back, home"
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "canisters": {
+    "backend_canister": {
+      "main": "src/backend_canister/main.mo",
+      "type": "motoko"
+    },
+    "internet_identity": {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+    },
+    "frontend_canister": {
+      "dependencies": [
+        "backend_canister"
+      ],
+      "frontend": {
+        "entrypoint": "src/frontend_canister/src/index.html"
+      },
+      "source": [
+        "src/frontend_canister/assets",
+        "dist/frontend_canister/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

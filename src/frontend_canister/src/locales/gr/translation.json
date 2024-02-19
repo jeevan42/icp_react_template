@@ -1,0 +1,86 @@
+{
+    "adminLogin": {
+        "heading": "Anmelden, um Veranstaltungen zu erstellen",
+        "logInAndGiveDeveloper": "Melden Sie sich an und geben Sie dem Entwickler Ihre Haupt-ID, um Sie zum Administrator zu machen. Wenn Sie bereits als Administrator zugewiesen sind, melden Sie sich einfach an, um fortzufahren.",
+        "adminRedirecting": "Willkommen Admin, Weiterleitung zum Dashboard...",
+        "copyAndGiveDeveloper": "Kopieren Sie Ihre Haupt-ID und geben Sie sie dem Entwickler, um Sie zum Administrator zu machen. Bitte laden Sie die Seite neu, wenn Sie 'Anonymer Benutzer' als Haupt-ID erhalten: {{principalId}}",
+        "internetIdentity": "Internet-Identität",
+        "loading": "Wird geladen...",
+        "continueAsAttendee": "Als Teilnehmer fortfahren"
+    },
+    "login": {
+        "heading": "Anmelden, um Belohnungen zu erhalten",
+        "helpText": "Sie sind nur einen Schritt davon entfernt, Ihre Belohnungen zu erhalten. Bitte melden Sie sich jetzt an, um Ihre Belohnungen zu beanspruchen. Denken Sie daran, dass Sie Ihre Belohnungen nur einmal beanspruchen können.",
+        "internetIdentity": "Internet-Identität",
+        "loading": "Wird geladen..."
+    },
+    "claimSeat": {
+        "sometingWentWrong": "Etwas ist schiefgelaufen.",
+        "noCreds": "Sie haben keinen Zugriff auf diese Veranstaltung, da Ihre Veranstaltungs-ID und Ihr Hex-Code fehlen. Bitte scannen Sie den QR-Code für die ICP-Veranstaltung erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an unser Support-Team.",
+        "noEvent": "Kein Name",
+        "noSeat": "Kein Sitzplatz",
+        "helpText": "Schön, dass Sie sich angemeldet haben! Sie sind jetzt bereit, Ihren Sitzplatz für die ICP-Veranstaltung zu beanspruchen. Klicken Sie einfach auf die Schaltfläche 'Sitzplatz beanspruchen', um loszulegen. Diese Nummer ist entscheidend, um auf Veranstaltungsmaterialien zuzugreifen und vollständig teilzunehmen. Wenn Sie Probleme haben oder Fragen haben, steht Ihnen unser Support-Team zur Verfügung. Viel Spaß bei der Veranstaltung!",
+        "welcomeText": "Willkommen bei {{eventName}}! Ihre Anmeldung über ICP war erfolgreich, und Sie haben Ihren Sitzplatz mit der Nummer: {{seatNo}} beansprucht. Diese Nummer ist entscheidend für Ihre Teilnahme und Erfahrungen während der Veranstaltung. Wenn Sie Fragen haben oder Hilfe benötigen, steht Ihnen unser Support-Team zur Verfügung. Genießen Sie Ihre Zeit auf der Veranstaltung!",
+        "claimSeat": "Sitzplatz beanspruchen",
+        "alreadyClaimed": "Bereits beansprucht"
+    },
+    "qrCodeComponent": {
+        "heading": "Erstellung von Event-QR-Codes",
+        "helpText": "Willkommen, Presenter! Hier sind die dynamisch generierten QR-Codes für Ihre Veranstaltungen. Diese QR-Codes dienen als bequeme Möglichkeit für Teilnehmer, ihre Sitzplätze zu beanspruchen. Indem sie diese Codes scannen, können Teilnehmer ihre Plätze sichern und Zugang zu Veranstaltungsmaterialien und -erlebnissen erhalten. Ermutigen Sie Ihre Teilnehmer, ihre Smartphones bereit zu haben, und leiten Sie sie an, die QR-Codes mit einer QR-Code-Scanner-App zu scannen. Nach dem Scannen können Teilnehmer ihre Plätze beanspruchen und vollständig an der Veranstaltung teilnehmen. Wenn Sie Unterstützung benötigen oder Fragen haben, steht Ihnen unser Support-Team zur Verfügung. Genießen Sie ein nahtloses und ansprechendes Veranstaltungserlebnis mit der Kraft der QR-Codes!",
+        "qrGenerated": "QR-Code generiert",
+        "hideQr": "QR-Code ausblenden"
+    },
+    "eventCard": {
+        "upcoming": "Bevorstehend",
+        "past": "Vergangen",
+        "ongoing": "Laufend",
+        "noStatus": "Kein Status",
+        "viewEvent": "Veranstaltung anzeigen",
+        "showQr": "QR-Code anzeigen"
+    },
+    "events": {
+        "totalEvents": "Gesamtveranstaltungen: ",
+        "createNewEvent": "Neue Veranstaltung erstellen",
+        "noEvents": "Keine Veranstaltungen gefunden"
+    },
+    "singleEvent": {
+        "noEvent": "Keine Veranstaltung gefunden",
+        "altCreateEvent": "Veranstaltung erstellen"
+    },
+    "singleEventCard":{
+        "startTimeTitle": "Startzeit: ",
+        "endTimeTitle": "Endzeit: ",
+        "noTime": "Keine Zeit",
+        "totalSeatsTitle": "Gesamtsitze: ",
+        "claimedSeatsTitle": "Beanspruchte Sitze: "
+    },
+    "addEventModal": {
+        "required": "Erforderlich",
+        "mustBeFuture": "Das Datum muss in der Zukunft liegen",
+        "greaterThanStart": "Das Enddatum muss größer als das Startdatum sein",
+        "createEvent": "Veranstaltung erstellen",
+        "eventName": "Veranstaltungsname",
+        "enterEventName": "Veranstaltungsname eingeben",
+        "startDateTime": "Startdatum und -zeit",
+        "endDateTime": "Enddatum und -zeit",
+        "eventDescription": "Veranstaltungsbeschreibung",
+        "enterEventDescription": "Veranstaltungsbeschreibung eingeben",
+        "submitting": "Wird übermittelt...",
+        "submit": "Senden",
+        "cancel": "Abbrechen"
+    },
+    "deleteEventModal": {
+        "heading": "Veranstaltung löschen",
+        "approvalText": "Möchten Sie diese Veranstaltung wirklich löschen? Alle Veranstaltungsdaten werden dauerhaft entfernt. Diese Aktion kann nicht rückgängig gemacht werden.",
+        "delete": "Löschen"
+    },
+    "editEventModal": {
+        "editEvent": "Veranstaltung bearbeiten",
+        "update": "Aktualisieren"
+    },
+    "error404": {
+        "heading": "404",
+        "lostMessage": "Hoppla! Es scheint, als hätten Sie sich verirrt.",
+        "goBack": "Lassen Sie uns Sie zurück nach Hause bringen"
+    }
+}

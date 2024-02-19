@@ -1,0 +1,86 @@
+{
+    "adminLogin": {
+        "heading": "Connectez-vous pour créer des événements",
+        "logInAndGiveDeveloper": "Connectez-vous et donnez à votre développeur votre identifiant principal pour vous rendre administrateur. Si vous êtes déjà assigné en tant qu'administrateur, connectez-vous simplement pour continuer.",
+        "adminRedirecting": "Bienvenue Admin, redirection vers le tableau de bord...",
+        "copyAndGiveDeveloper": "Copiez et donnez à votre développeur votre identifiant principal pour vous rendre administrateur. Veuillez recharger la page si vous obtenez Anonymous Principal: {{principalId}}",
+        "internetIdentity": "Identité Internet",
+        "loading": "Chargement...",
+        "continueAsAttendee": "Continuer en tant que participant"
+    },
+    "login": {
+        "heading": "Connectez-vous pour réclamer des récompenses",
+        "helpText": "Vous êtes à un pas de réclamer vos récompenses. Veuillez vous connecter maintenant pour réclamer vos récompenses. Rappelez-vous, vous ne pouvez réclamer vos récompenses qu'une seule fois.",
+        "internetIdentity": "Identité Internet",
+        "loading": "Chargement..."
+    },
+    "claimSeat": {
+        "sometingWentWrong": "Quelque chose s'est mal passé.",
+        "noCreds": "Vous n'avez pas accès à cet événement car votre identifiant d'événement et votre code hexadécimal sont manquants. Veuillez rescanner le code QR pour l'événement ICP. Si le problème persiste, contactez notre équipe de support pour obtenir de l'aide.",
+        "noEvent": "Pas de nom",
+        "noSeat": "Pas de siège",
+        "helpText": "C'est génial de vous voir connecté ! Vous êtes maintenant prêt à réclamer votre numéro de siège pour l'événement ICP. Il vous suffit de cliquer sur le bouton 'Réclamer un siège' pour commencer. Ce numéro est essentiel pour accéder aux documents de l'événement et participer pleinement. Si vous rencontrez des problèmes ou avez des questions, notre équipe de support est là pour vous aider. Profitez de l'événement !",
+        "welcomeText": "Bienvenue à {{eventName}} ! Votre connexion via ICP a réussi, et vous avez réclamé votre siège avec le numéro : {{seatNo}}. Ce numéro est essentiel pour votre engagement et vos expériences tout au long de l'événement. Si vous avez des questions ou avez besoin d'aide à tout moment, notre équipe de support est là pour vous aider. Profitez de votre temps à l'événement !",
+        "claimSeat": "Réclamer un siège",
+        "alreadyClaimed": "Déjà réclamé"
+    },
+    "qrCodeComponent": {
+        "heading": "Génération de QR pour l'événement",
+        "helpText": "Bienvenue, Présentateur ! Voici les QR codes générés dynamiquement pour vos événements. Ces QR codes servent de moyen pratique aux participants pour réclamer leurs places. En scannant ces codes, les participants peuvent sécuriser leur place et accéder aux documents et expériences de l'événement. Encouragez les participants à avoir leur smartphone prêt et guidez-les pour scanner les QR codes à l'aide d'une application de scan de QR code. Une fois scannés, les participants pourront réclamer leur place et participer pleinement à l'événement. Si vous avez besoin d'aide ou avez des questions, notre équipe de support est là pour vous aider. Profitez d'une expérience d'événement fluide et captivante grâce aux QR codes !",
+        "qrGenerated": "QR Généré",
+        "hideQr": "Masquer le QR"
+    },
+    "eventCard": {
+        "upcoming": "À venir",
+        "past": "Passé",
+        "ongoing": "En cours",
+        "noStatus": "Aucun statut",
+        "viewEvent": "Voir l'événement",
+        "showQr": "Afficher le QR"
+    },
+    "events": {
+        "totalEvents": "Événements totaux : ",
+        "createNewEvent": "Créer un nouvel événement",
+        "noEvents": "Aucun événement trouvé"
+    },
+    "singleEvent": {
+        "noEvent": "Aucun événement trouvé",
+        "altCreateEvent": "Créer un événement"
+    },
+    "singleEventCard": {
+        "startTimeTitle": "Heure de début : ",
+        "endTimeTitle": "Heure de fin : ",
+        "noTime": "Pas d'heure",
+        "totalSeatsTitle": "Nombre total de sièges : ",
+        "claimedSeatsTitle": "Sièges réclamés : "
+    },
+    "addEventModal": {
+        "required": "Obligatoire",
+        "mustBeFuture": "La date doit être dans le futur",
+        "greaterThanStart": "La date de fin doit être supérieure à la date de début",
+        "createEvent": "Créer un événement",
+        "eventName": "Nom de l'événement",
+        "enterEventName": "Entrez le nom de l'événement",
+        "startDateTime": "Date et heure de début",
+        "endDateTime": "Date et heure de fin",
+        "eventDescription": "Description de l'événement",
+        "enterEventDescription": "Entrez la description de l'événement",
+        "submitting": "Soumission en cours...",
+        "submit": "Soumettre",
+        "cancel": "Annuler"
+    },
+    "deleteEventModal": {
+        "heading": "Supprimer l'événement",
+        "approvalText": "Êtes-vous sûr de vouloir supprimer cet événement ? Toutes les données de l'événement seront définitivement supprimées. Cette action ne peut pas être annulée.",
+        "delete": "Supprimer"
+    },
+    "editEventModal": {
+        "editEvent": "Modifier l'événement",
+        "update": "Mettre à jour"
+    },
+    "error404": {
+        "heading": "404",
+        "lostMessage": "Oops! On dirait que vous êtes perdu(e).",
+        "goBack": "Retournons à la maison"
+    }
+}
